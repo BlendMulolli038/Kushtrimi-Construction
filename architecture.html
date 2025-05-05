@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture & Design - Kushtrimi Construction</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header/Navbar (same as index.html) -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Kushtrimi Construction Logo" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="services.html#general-construction">General Construction</a></li>
+                                <li><a class="dropdown-item" href="services.html#architectural-design">Architectural Design</a></li>
+                                <li><a class="dropdown-item" href="services.html#renovations">Renovations</a></li>
+                                <li><a class="dropdown-item active" href="architecture.html">Architecture & Design</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ms-lg-3 mt-3 mt-lg-0">
+                        <a href="contact.html#quote" class="btn btn-primary">Request a Quote</a>
+                    </div>
+                    <div class="ms-2 dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Shqip</a></li>
+                            <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Architecture Page Banner -->
+    <section class="page-banner bg-primary text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Architecture & Design</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center bg-transparent">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Architecture & Design</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architect Introduction -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="architect-photo text-center mb-4 mb-lg-0">
+                        <img src="img/architect.jpg" alt="Lead Architect" class="img-fluid rounded-circle shadow" width="300">
+                        <h4 class="mt-4">Arta Krasniqi</h4>
+                        <p class="text-muted">Lead Architect</p>
+                        <div class="architect-social mt-3">
+                            <a href="#" class="text-primary me-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-primary me-2"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="text-primary"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="mb-4">Meet Our Architect</h2>
+                    <p>Arta Krasniqi brings over 12 years of architectural experience to Kushtrimi Construction. With a Master's degree in Architecture from the University of Prishtina and additional training in sustainable design from Milan, Arta leads our design team with creativity and technical expertise.</p>
+                    <p>Her portfolio includes award-winning residential projects, innovative commercial spaces, and sensitive heritage renovations. Arta's approach combines aesthetic vision with practical functionality, ensuring spaces that are beautiful, livable, and sustainable.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-graduation-cap text-primary me-2"></i> Master of Architecture</li>
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-award text-primary me-2"></i> 5 Industry Awards</li>
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-home text-primary me-2"></i> 50+ Completed Projects</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-globe-europe text-primary me-2"></i> International Experience</li>
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-leaf text-primary me-2"></i> Sustainable Design Specialist</li>
+                                <li class="list-group-item ps-0 border-0"><i class="fas fa-users text-primary me-2"></i> Client-Focused Approach</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Philosophy -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Design Philosophy</h2>
+                <p class="lead">Creating spaces that inspire and function</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="philosophy-icon mb-4">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Innovation</h4>
+                            <p>We push boundaries with creative solutions that challenge conventional thinking while respecting context and culture.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="philosophy-icon mb-4">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Sustainability</h4>
+                            <p>Environmentally responsible design is at our core, from material selection to energy-efficient solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="philosophy-icon mb-4">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4>Client-Centric</h4>
+                            <p>Your vision drives our process. We listen carefully to create spaces that reflect your needs and aspirations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Process -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Design Process</h2>
+                <p class="lead">From concept to completion</p>
+            </div>
+            <div class="design-process">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Initial Consultation</h4>
+                        <p>We meet to understand your vision, requirements, budget, and site specifics.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Concept Development</h4>
+                        <p>Our team creates preliminary sketches and 3D models for your review.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Design Refinement</h4>
+                        <p>We refine the chosen concept based on your feedback, developing detailed plans.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Technical Documentation</h4>
+                        <p>Complete construction drawings and specifications are prepared.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h4>Construction Phase</h4>
+                        <p>Our team oversees implementation, ensuring design integrity is maintained.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Portfolio -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Design Portfolio</h2>
+                <p class="lead">Explore our architectural creations</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design1.jpg" alt="Modern Villa Design" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Modern Villa</h5>
+                                <p>Residential Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design2.jpg" alt="Office Interior" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Corporate Office</h5>
+                                <p>Interior Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design3.jpg" alt="Restaurant Concept" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Urban Restaurant</h5>
+                                <p>Commercial Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design4.jpg" alt="Apartment Complex" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Apartment Complex</h5>
+                                <p>Multi-Unit Residential</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design5.jpg" alt="Retail Space" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Boutique Retail</h5>
+                                <p>Commercial Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/design6.jpg" alt="Landscape Design" class="img-fluid rounded shadow">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h5>Garden Oasis</h5>
+                                <p>Landscape Architecture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="projects.html" class="btn btn-primary">View Completed Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Tools -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Design Tools</h2>
+                <p class="lead">Cutting-edge technology for exceptional results</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-md-3 text-center">
+                    <div class="tool-logo mb-3">
+                        <img src="img/revit-logo.png" alt="Revit" class="img-fluid" width="100">
+                    </div>
+                    <h5>Revit</h5>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="tool-logo mb-3">
+                        <img src="img/autocad-logo.png" alt="AutoCAD" class="img-fluid" width="100">
+                    </div>
+                    <h5>AutoCAD</h5>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="tool-logo mb-3">
+                        <img src="img/sketchup-logo.png" alt="SketchUp" class="img-fluid" width="100">
+                    </div>
+                    <h5>SketchUp</h5>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="tool-logo mb-3">
+                        <img src="img/vray-logo.png" alt="V-Ray" class="img-fluid" width="100">
+                    </div>
+                    <h5>V-Ray</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design CTA -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Bring Your Vision to Life?</h2>
+            <p class="lead mb-5">Schedule a design consultation with our architect today</p>
+            <a href="contact.html" class="btn btn-light btn-lg me-2">Book Consultation</a>
+            <a href="tel:+38349123456" class="btn btn-outline-light btn-lg"><i class="fas fa-phone me-2"></i> Call Now</a>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <!-- Footer content from index.html -->
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
